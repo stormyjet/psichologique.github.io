@@ -1,59 +1,123 @@
-body {background-color: #b1ff00; margin: 0px}
+body {
+    background-color:#b1ff00;
+    margin:0
+}
 
-img.logo {display: block; margin-bottom: auto; margin-left: auto; margin-right: auto; margin-top: auto; width: 50%; height: 50%; }
+img.logo {
+    display:block;
+	margin: auto;
+    width:50%;
+    height:50%
+}
 
-@font-face {font-family: mainFont; src: url(fonts/coolvetica_rg.ttf);}
+@font-face {
+    font-family:mainFont;
+    src:url(fonts/coolvetica_rg.ttf)
+}
 
-@font-face {font-family: secondaryFont; src: url(fonts/basictitlefont.ttf)}
+@font-face {
+    font-family:secondaryFont;
+    src:url(fonts/basictitlefont.ttf)
+}
 
 a:link {
-    color: #004e1b;
-	text-decoration: none;
+    color:#004e1b;
+    text-decoration:none
 }
 
 a:visited {
-    color: #004e1b;
-	text-decoration: none;
+    color:#004e1b;
+    text-decoration:none
 }
 
 a:hover {
-    color: #000;
-	text-decoration: none;
+    color:#000;
+    text-decoration:none
 }
 
 a:active {
-    color: #fff;
-	text-decoration: none;
+    color:#fff;
+    text-decoration:none
 }
 
-#wrapper {width: 1000px; margin: -10px auto -10px auto;  background-color: #78ad00}
-
-#Wrapper2 {width: 800px; margin: 0 auto; background-color: #78ad00}
-
-.video-container { position: relative; /* keeps the aspect ratio */ padding-bottom: 56.25%; padding-top: 60px; overflow: hidden;
+#wrapper {
+    width:1000px;
+    margin:-10px auto;
+    background-color:#78ad00
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+#Wrapper2 {
+    width:800px;
+    margin:0 auto;
+    background-color:#78ad00
 }
 
-h1.video {font-family: secondaryFont; color: white; margin: 2%; border-bottom: 2px solid white}
+.video-container {
+    position:relative;
+/* keeps the aspect ratio */
+    padding-bottom:56.25%;
+    padding-top:60px;
+    overflow:hidden
+}
 
-h1.infoHeader {font-family: mainFont; color: white;}
+.video-container iframe,.video-container object,.video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%
+}
 
-p.infoText {font-family: arial; color: white;}
+h1.video {
+    font-family:secondaryFont;
+    color:#fff;
+    margin:2%;
+    border-bottom:2px solid #fff
+}
 
-div.information {padding-bottom: 2%; text-align: left}
+h1.infoHeader {
+    font-family:mainFont;
+    color:#fff
+}
 
-div.footer {background-color: #083400; padding-bottom: 3%; padding-top: 2%; width: 100%}
+p.infoText {
+    font-family:arial;
+    color:#fff
+}
 
-p.footer {font-family: secondaryFont; color: white; text-align: center; margin: 0; padding: 0}
+div.information {
+    padding-bottom:2%;
+    text-align:left
+}
 
-h1.contactHeader {font-family: mainFont; color: white; text-align: right}
+div.footer {
+    background-color:#083400;
+    padding-bottom:3%;
+    padding-top:2%;
+    width:100%
+}
 
-p.contact {font-family: arial; color: white; text-align: right}
+p.footer {
+    font-family:secondaryFont;
+    color:#fff;
+    text-align:center;
+    margin:0;
+    padding:0
+}
 
-div.info {padding-left: 2%; padding-right: 2%}
+h1.contactHeader {
+    font-family:mainFont;
+    color:#fff;
+    text-align:right
+}
 
-p.404 {font-family: mainFont; color: white}
+p.contact {
+    font-family:arial;
+    color:#fff;
+    text-align:right
+}
+
+div.info {
+    padding-left:2%;
+    padding-right:2%
+}

@@ -1,7 +1,6 @@
 psichologique.github.io
 =======================
-Psicho should put something here but he didnt
+This is my internet lair.
 
-
-This is his website
-Yay!
+Enter at your own risks.
+(there is no risks)
