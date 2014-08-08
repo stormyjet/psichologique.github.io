@@ -46,12 +46,6 @@ a:active {
     background-color:#78ad00
 }
 
-#Wrapper2 {
-    width:800px;
-    margin:0 auto;
-    background-color:#78ad00
-}
-
 .video-container {
     position:relative;
 /* keeps the aspect ratio */
@@ -72,7 +66,7 @@ h1.video {
     font-family:secondaryFont;
     color:#fff;
     margin:2%;
-    border-bottom:2px solid #fff
+    border-bottom: 1px solid #fff;
 }
 
 h1.infoHeader {
@@ -102,7 +96,7 @@ p.footer {
     color:#fff;
     text-align:center;
     margin:0;
-    padding:0
+    padding:0;
 }
 
 h1.contactHeader {
