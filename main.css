@@ -1,16 +1,13 @@
 body {
-    background-color:#b1ff00;
-    margin:0;
+    background-color: #b1ff00;
+    margin: 0;
 }
 
 img.logo {
-    display:block;
+    display: block;
 	margin: auto;
-    width:50%;
-    height:50%;
-	/*
-	padding-top: 25px;
-	*/
+    width: 50%;
+    height: 50%;
 }
 
 @font-face {
@@ -24,36 +21,36 @@ img.logo {
 }
 
 a:link {
-    color: black	;
+    color: black;
     text-decoration:none;
 }
 
 a:visited {
     color: black;
-    text-decoration:none
+    text-decoration :none;
 }
 
 a:hover {
-    color:#fff;
-    text-decoration:none;
+    color: #fff;
+    text-decoration: none;
 }
 
 a:active {
-    color:#fff;
-    text-decoration:none;
+    color: #fff;
+    text-decoration: none;
 }
 
 #wrapper {
-    width:1000px;
-    margin:-10px auto;
-    background-color:#78ad00;
+  width:1000px;
+  margin: -10px auto;
+  background-color: #78ad00; 
 }
 
 .video-container {
-    position:relative;
-    padding-bottom:56.25%;
-    padding-top:60px;
-    overflow:hidden
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 60px;
+    overflow: hidden
 }
 
 .video-container iframe,.video-container object,.video-container embed {
@@ -124,10 +121,24 @@ p.colorChangerText {
 	font-size: 100%;
 }
 
-div.colorChanger {
+#colorChanger {
 	background-color: #0f4a1d;
 	padding: 0.5%;
-	z-index: 1;
 	position: fixed;
-	width: 100%;
+	width: 1000px;
+	z-index: 1;
+    box-sizing: border-box;
+}
+
+#main {
+	overflow: hidden;
+	position: relative;
+}
+
+#filler {
+padding-top: 50px;	
+}
+
+#green{
+border: 1px solid white;
 }
