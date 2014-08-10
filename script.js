@@ -4,10 +4,6 @@ $(document).ready(function() {
 		$("#colorChanger").slideToggle(150);
 	});
 	
-	$("#hide").click(function() {
-		$("#hide").text("Hide");
-	});
-	
 	// Menu
 	
 
@@ -30,7 +26,7 @@ $(document).ready(function() {
 		$("#red").css("border","0");
 		$("#wrapper").css("background-color","#78ad00");
 		$("body").css("background-color","#b1ff00");
-		$("#colorChanger").css("background-color","#0f4a1d");
+	    $("#colorChanger").css("background-color","#0f4a1d");
 		$("#footer").css("background-color","#0f4a1d");
 	});
 	
