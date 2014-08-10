@@ -1,12 +1,16 @@
-$(document).ready(function() {	
+$(document).ready(function() {
 	
 	$("#Options").click(function() {
-	$("#colorChanger").slideToggle(150);
+		$("#colorChanger").slideToggle(150);
 	});
 	
-	$("#hide").dblclick(function() {
-	$("#wrapper").hide(15000);
+	$("#hide").click(function() {
+		$("#hide").text("Hide");
 	});
+	
+	// Menu
+	
+
 	
 	//Blue Theme
 	$("#blue").click(function() {
