@@ -119,15 +119,15 @@ p.colorChangerText {
 	font-family: secondaryFont;
 	color: white;
 	font-size: 100%;
+	box-sizing: border-box;
 }
 
 #colorChanger {
 	background-color: #0f4a1d;
-	padding-left: 0.5%;
+	padding: 0.5%;
 	width: 1000px;
 	z-index: 1;
     box-sizing: border-box;
-	float: left;
 }
 
 #main {
@@ -140,8 +140,7 @@ p.colorChangerText {
 }
 
 #Options {
-	background-color: black;
-	margin-top: -9px;
+	margin-bottom: -19px;
 }
 
 p.textOptions {
@@ -149,5 +148,12 @@ p.textOptions {
 	font-family: secondaryFont;
 	color: white;
 	font-size: 120%;
-	z-index: 2;
+	z-index: 2
+}
+
+p#hide {
+	float: right;
+	font-family: secondaryFont;
+	color: white;
+	font-size: 100%;
 }

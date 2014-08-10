@@ -1,9 +1,11 @@
 $(document).ready(function() {	
 	
-	$("#colorChanger").hide();
-	
 	$("#Options").click(function() {
-	$("#colorChanger").slideToggle(100);
+	$("#colorChanger").slideToggle(150);
+	});
+	
+	$("#hide").dblclick(function() {
+	$("#wrapper").hide(15000);
 	});
 	
 	//Blue Theme
