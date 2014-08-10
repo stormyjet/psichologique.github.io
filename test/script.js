@@ -1,30 +1,12 @@
 $(document).ready(function() {	
 	
-	$("#colorChanger").ready(function() {
-	$("#colorChanger").css("opacity","0.1");
-	});
+	$("#colorChanger").hide();
 	
-	$("#colorChanger").mouseenter(function() {
-		$(this).fadeTo("opacity","1.0");
-	});
-	
-	$("#colorChanger").mouseleave(function() {
-	$(this).fadeTo("opacity","0.1");
-	});
-	
-	$("#colorChanger").mouseenter(function() {
-	$("#filler").show();
-	});
-	
-	$("#filler").hide(function() {
-	});
-	
-	$("#colorChanger").mouseleave(function() {
-	$("#filler").hide(100);
+	$("#Options").click(function() {
+	$("#colorChanger").slideToggle(100);
 	});
 	
 	//Blue Theme
-	
 	$("#blue").click(function() {
 		$(this).css("border","1px solid white");
 		$("#green").css("border","0");
@@ -36,7 +18,6 @@ $(document).ready(function() {
 	});
 	
 	//Default Theme
-
 	$("#green").click(function() {
 		$(this).css("border","1px solid white");
 		$("#blue").css("border","0");
@@ -48,7 +29,6 @@ $(document).ready(function() {
 	});
 	
 	//Red Theme
-	
 		$("#red").click(function() {
 		$(this).css("border","1px solid white");
 		$("#blue").css("border","0");

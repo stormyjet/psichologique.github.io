@@ -123,11 +123,11 @@ p.colorChangerText {
 
 #colorChanger {
 	background-color: #0f4a1d;
-	padding: 0.5%;
-	position: fixed;
+	padding-left: 0.5%;
 	width: 1000px;
 	z-index: 1;
     box-sizing: border-box;
+	float: left;
 }
 
 #main {
@@ -135,10 +135,19 @@ p.colorChangerText {
 	position: relative;
 }
 
-#filler {
-padding-top: 50px;	
+#green {
+	border: 1px solid white;
 }
 
-#green{
-border: 1px solid white;
+#Options {
+	background-color: black;
+	margin-top: -9px;
+}
+
+p.textOptions {
+	text-align: center;
+	font-family: secondaryFont;
+	color: white;
+	font-size: 120%;
+	z-index: 2;
 }
