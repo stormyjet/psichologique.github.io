@@ -1,14 +1,20 @@
 $(document).ready(function() {
 	
-	$("#Options").click(function() {
-		$("#colorChanger").slideToggle(150);
+	$("#colorChanger").hide(0);
+	
+	//$("#colorChanger").mouseleave(function() {
+	//	$(this).slideToggle(150);
+	//});
+	
+	$("#Options").mouseenter(function() {
+		$("#colorChanger").slideToggle(100)
 	});
 	
-	// Menu
+	//$("#colorChanger").mouseleave(function() {
+	//$(this).slideUp(150)
+	//});
 	
-
-	
-	//Blue Theme
+	//Blue Theme	
 	$("#blue").click(function() {
 		$(this).css("border","1px solid white");
 		$("#green").css("border","0");
@@ -31,6 +37,17 @@ $(document).ready(function() {
 	});
 	
 	//Red Theme
+		$("#red").click(function() {
+		$(this).css("border","1px solid white");
+		$("#blue").css("border","0");
+		$("#green").css("border","0");
+		$("#wrapper").css("background-color","#BF3F40");
+		$("body").css("background-color","#FF5455");
+		$("#colorChanger").css("background-color","#401515");
+		$("#footer").css("background-color","#401515");
+	});
+	
+		//Random Theme
 		$("#red").click(function() {
 		$(this).css("border","1px solid white");
 		$("#blue").css("border","0");
