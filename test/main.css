@@ -129,7 +129,9 @@ p.colorChangerText {
 	width: 1000px;
 	z-index: 1;
     box-sizing: border-box;
-	box-shadow: 0px 3px 10px;
+	/* box-shadow: 0px 3px 10px; */
+	position: fixed;
+	opacity: 1;
 }
 
 #main {
@@ -151,15 +153,34 @@ p.colorChangerText {
 }
 
 #Options {
+	position: fixed;
+	width: 1000px;
+	margin: auto;
+	display: block;
+	z-index: 1;
+	background-color: #78ad00;
+}
+
+#Options:hover {
+	background-color: #5f8900;
 }
 
 p.textOptions {
 	font-family: secondaryFont;
 	color: white;
 	font-size: 120%;
-	padding: -10px;
 	cursor: pointer;
 	text-align: center;
+	text-shadow: 1px 1px 0px black;
+}
+
+.textOptions:hover {
+	font-family: secondaryFont;
+	color: white;
+	font-size: 120%;
+	cursor: pointer;
+	text-align: center;
+	text-shadow: 0px 0px 0px;
 }
 
 p#hide {
@@ -167,4 +188,10 @@ p#hide {
 	font-family: secondaryFont;
 	color: white;
 	font-size: 100%;
+	margin-bottom: -5px;
+	text-shadow: 1px 1px 0px black;
+}
+
+p#hide:hover {
+	text-shadow: 0px 0px 0px;
 }

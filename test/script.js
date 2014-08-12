@@ -1,18 +1,24 @@
 $(document).ready(function() {
 	
-	$("#colorChanger").hide(0);
+	$("#colorChanger").hide();
 	
-	//$("#colorChanger").mouseleave(function() {
-	//	$(this).slideToggle(150);
-	//});
-	
-	$("#Options").mouseenter(function() {
-		$("#colorChanger").slideToggle(100)
+	$("#colorChanger").mouseenter(function() {
+		$(this).css("opacity","1.0")
 	});
 	
-	//$("#colorChanger").mouseleave(function() {
-	//$(this).slideUp(150)
-	//});
+	$("#Options").click(function() {
+		$("#colorChanger").slideToggle(100)
+		$(this).slideUp(100);
+	});
+	
+	$("p#hide").click(function() {
+		$("#colorChanger").slideToggle(100);
+		$("#Options").slideDown(100);
+	});
+	
+	$("#colorChanger").mouseleave(function() {
+	$(this).css("opacity","0.1")
+	});
 	
 	//Blue Theme	
 	$("#blue").click(function() {
