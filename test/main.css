@@ -1,5 +1,5 @@
 body {
-    background-color: #b1ff00;
+    background-color: #a2ea00;
     margin: 0;
 }
 
@@ -8,6 +8,7 @@ img.logo {
 	margin: auto;
     width: 50%;
     height: 50%;
+	margin-top: 30px;
 }
 
 @font-face {
@@ -18,6 +19,11 @@ img.logo {
 @font-face {
     font-family:secondaryFont;
     src:url(fonts/basictitlefont.ttf);
+}
+
+@font-face {
+    font-family:BigNoodlezTitling;
+    src:url(fonts/bignoodletitling.ttf);
 }
 
 a:link {
@@ -62,14 +68,14 @@ a:active {
 }
 
 h1.video {
-    font-family:secondaryFont;
+    font-family: secondaryFont;
     color:#fff;
     margin:2%;
     border-bottom: 1px solid #fff;
 }
 
 h1.infoHeader {
-    font-family:mainFont;
+    font-family:secondaryFont;
     color:#fff;
 }
 
@@ -88,7 +94,7 @@ div.footer {
     padding-bottom:3%;
     padding-top:2%;
     width:100%;
-	box-shadow: 0px -3px 15px;
+	/* box-shadow: 0px -3px 15px; */
 }
 
 p.footer {
@@ -100,7 +106,7 @@ p.footer {
 }
 
 h1.contactHeader {
-    font-family:mainFont;
+    font-family:secondaryFont;
     color:#fff;
     text-align:right;
 }
@@ -161,10 +167,6 @@ p.colorChangerText {
 	background-color: #78ad00;
 }
 
-#Options:hover {
-	background-color: #5f8900;
-}
-
 p.textOptions {
 	font-family: secondaryFont;
 	color: white;
@@ -194,4 +196,11 @@ p#hide {
 
 p#hide:hover {
 	text-shadow: 0px 0px 0px;
+}
+
+p#wip {
+	font-family: arial;
+	color: white;
+	z-index: 2;
+	position: fixed;
 }
