@@ -83,7 +83,7 @@ $(document).ready(function() {
             $(this).css("background-color", "#BF3F40")
         });
     });
-
+	
     //Random Theme - Probably at some point
     //$("#red").click(function() {
     //$(this).css("border","1px solid white");

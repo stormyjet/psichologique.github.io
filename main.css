@@ -71,7 +71,10 @@ h1.video {
     font-family: secondaryFont;
     color:#fff;
     margin:2%;
-    border-bottom: 1px solid #fff;
+}
+
+.video {
+	border-bottom: 1px solid #fff;
 }
 
 h1.infoHeader {
@@ -165,6 +168,7 @@ p.colorChangerText {
 	display: block;
 	z-index: 1;
 	background-color: #78ad00;
+	cursor: pointer;
 }
 
 p.textOptions {
@@ -192,6 +196,7 @@ p#hide {
 	font-size: 100%;
 	margin-bottom: -5px;
 	text-shadow: 1px 1px 0px black;
+	cursor: pointer;
 }
 
 p#hide:hover {
@@ -203,4 +208,12 @@ p#wip {
 	color: white;
 	z-index: 2;
 	position: fixed;
+}
+
+#version {
+	margin-left: 20px;
+	margin-top: -45px;
+	font-family: arial;
+	color: white;
+	text-shadow: 1px 1px 0px black;
 }
