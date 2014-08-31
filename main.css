@@ -169,6 +169,7 @@ p.colorChangerText {
 	z-index: 1;
 	background-color: #78ad00;
 	cursor: pointer;
+	padding-top: 8px;
 }
 
 p.textOptions {

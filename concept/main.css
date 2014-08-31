@@ -4,14 +4,19 @@
 }
 
 body {
-	background-image: url(img/background.gif);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-color: black
 }
 
 #logo {
-	width: 40%;
-	height: 40%;
-	display: inline-grid;
-	margin: auto;
+	height:50%;
+   width: 50%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+
+}
+
+div {
+	 vertical-align: middle;
+   text-align: center;
 }
