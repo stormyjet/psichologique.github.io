@@ -169,6 +169,7 @@ p.colorChangerText {
 	z-index: 1;
 	background-color: #78ad00;
 	cursor: pointer;
+	padding-top: 8px;
 }
 
 p.textOptions {
@@ -214,6 +215,55 @@ p#wip {
 	margin-left: 20px;
 	margin-top: -45px;
 	font-family: arial;
+	color: white;
+	text-shadow: 1px 1px 0px black;
+}
+
+#pf {
+	position: fixed;
+	background-color: rgba(201, 0, 0, 0.6);
+	padding: 5px 20px 5px 20px;
+	bottom: 0;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	/*right: 25%;*/
+	cursor: pointer;
+	z-index: 0;
+}
+
+#pf:hover {
+	-webkit-animation: tabs 0.5s linear
+}
+
+#pftext {
+	font-family: secondaryFont;
+	color: white;
+	text-shadow: 1px 1px 0px black;
+}
+
+@-webkit-keyframes tabs {
+	from {z-index: 0;}
+	to {z-index: 10;}
+}
+
+#tabs {
+	overflow: hidden;
+}
+
+#yt {
+	position: fixed;
+	background-color: rgba(0, 85, 201, 0.6);
+	padding: 5px 20px 5px 20px;
+	bottom: 0;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	/*right: 35%;*/
+	margin-left: 0px;
+	cursor: pointer;
+}
+
+#yttext {
+	font-family: secondaryFont;
 	color: white;
 	text-shadow: 1px 1px 0px black;
 }

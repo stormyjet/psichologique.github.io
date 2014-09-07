@@ -1,0 +1,401 @@
+@font-face {
+    font-family:robot;
+    src:urL(fonts/Roboto-Light.ttf);
+	src:urL(fonts/Roboto-Light.woff)
+}
+
+@font-face {
+	font-family: Opti;
+	src: url(fonts/Opificio_neue-regular.ttf);
+	src: url(fonts/Opificio_neue-regular.woff);
+}
+
+/*fonts */
+
+body {
+	background-color: #272762;
+}
+
+#sec1-wrapper {
+	box-shadow: 0px 0px 20px black inset;
+}
+
+#section-1 {
+	background-image: url(img/header-bg.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+
+#sec1-logo{
+	height: 75%;
+	width: 75%;
+	margin-left: 25%;
+}
+
+#sec1-logo-helper {
+	width: 75%;
+	float: left;
+	height: 600px;
+	background:url(img/square-logo.png) no-repeat center center;
+}
+
+#nav-sec1-container {
+	float: right;
+	width: 25%;
+	height: 600px;
+	background-color: rgba(78, 39, 111, 0.7);
+}
+
+a {
+	text-decoration: none;
+}
+
+#sec1-nav-list {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+#sec1-nav-link1 {
+	color: white;
+	font-family: robot;
+    display: block;
+    width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0, 0, 0, 1);
+	font-size: 150%;
+	padding-right: 1px;
+	margin-top: 200px;
+	-webkit-animation: nav-leave-1 0.1s linear;
+	-moz-animation: nav-leave-1 0.1s linear;
+	-ms-animation: nav-leave-1 0.1s linear;
+}
+
+#sec1-nav-link2 {
+	color: white;
+	font-family: robot;
+    display: block;
+    width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	font-size: 150%;
+	padding-right: 1px;
+	-webkit-animation: nav-leave-2 0.1s linear;
+	-moz-animation: nav-leave-2 0.1s linear;
+	-ms-animation: nav-leave-2 0.1s linear;
+}
+
+#sec1-nav-link3 {
+	color: white;
+	font-family: robot;
+    display: block;
+    width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	font-size: 150%;
+	padding-right: 1px;
+	-webkit-animation: nav-leave-3 0.1s linear;
+	-moz-animation: nav-leave-3 0.1s linear;
+	-ms-animation: nav-leave-3 0.1s linear;
+}
+
+#sec1-nav-link4 {
+	color: white;
+	font-family: robot;
+    display: block;
+    width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	font-size: 150%;
+	padding-right: 1px;
+	-webkit-animation: nav-leave-4 0.1s linear;
+	-moz-animation: nav-leave-4 0.1s linear;
+	-ms-animation: nav-leave-4 0.1s linear;
+}
+
+#sec1-nav-link1:hover {
+	background-color: #a72d2d;
+	-webkit-animation: nav-enter-1 0.1s linear;
+	-moz-animation: nav-enter-1 0.1s linear;
+	-ms-animation: nav-enter-1 0.1s linear;
+}
+
+#sec1-nav-link2:hover {
+	background-color: #e09100;
+	-webkit-animation: nav-enter-2 0.1s linear;
+	-moz-animation: nav-enter-2 0.1s linear;
+	-ms-animation: nav-enter-2 0.1s linear;
+}
+
+#sec1-nav-link3:hover {
+	background-color: green;
+	-webkit-animation: nav-enter-3 0.1s linear;
+	-moz-animation: nav-enter-3 0.1s linear;
+	-ms-animation: nav-enter-3 0.1s linear;
+}
+
+#sec1-nav-link4:hover {
+	background-color: #2256ba;
+	-webkit-animation: nav-enter-4 0.1s linear;
+	-moz-animation: nav-enter-4 0.1s linear;
+	-ms-animation: nav-enter-4 0.1s linear;
+}
+
+@-webkit-keyframes nav-leave-1 {
+	from {background-color: #a72d2d;}
+	to {background-color: black;}
+}
+
+@-moz-keyframes nav-leave-1 {
+	from {background-color: #a72d2d;}
+	to {background-color: black;}
+}
+
+@-ms-keyframes nav-leave-1 {
+	from {background-color: #a72d2d;}
+	to {background-color: black;}
+}
+
+@-webkit-keyframes nav-enter-1 {
+	from {background-color: black}
+	to {background-color: #a72d2d;}
+}
+
+@-moz-keyframes nav-enter-1 {
+	from {background-color: black}
+	to {background-color: #a72d2d;}
+}
+
+@-ms-keyframes nav-enter-1 {
+	from {background-color: black}
+	to {background-color: #a72d2d;}
+}
+
+@-webkit-keyframes nav-enter-2 {
+	from {background-color: black}
+	to {background-color: #e09100;}
+}
+
+@-moz-keyframes nav-enter-2 {
+	from {background-color: black}
+	to {background-color: #e09100;}
+}
+
+@-ms-keyframes nav-enter-2 {
+	from {background-color: black}
+	to {background-color: #e09100;}
+}
+
+@-webkit-keyframes nav-leave-2 {
+	from {background-color: #e09100;}
+	to {background-color: black;}
+}
+
+@-moz-keyframes nav-leave-2 {
+	from {background-color: #e09100;}
+	to {background-color: black;}
+}
+
+@-ms-keyframes nav-leave-2 {
+	from {background-color: #e09100;}
+	to {background-color: black;}
+}
+
+@-webkit-keyframes nav-enter-3 {
+	from {background-color: black}
+	to {background-color: green;}
+}
+
+@-moz-keyframes nav-enter-3 {
+	from {background-color: black}
+	to {background-color: green;}
+}
+
+@-ms-keyframes nav-enter-3 {
+	from {background-color: black}
+	to {background-color: green;}
+}
+
+@-webkit-keyframes nav-leave-3 {
+	from {background-color: green;}
+	to {background-color: black;}
+}
+
+@-moz-keyframes nav-leave-3 {
+	from {background-color: green;}
+	to {background-color: black;}
+}
+
+@-ms-keyframes nav-leave-3 {
+	from {background-color: green;}
+	to {background-color: black;}
+}
+
+@-webkit-keyframes nav-enter-4 {
+	from {background-color: black}
+	to {background-color: #2256ba;}
+}
+
+@-moz-keyframes nav-enter-4 {
+	from {background-color: black}
+	to {background-color: #2256ba;}
+}
+
+@-ms-keyframes nav-enter-4 {
+	from {background-color: black}
+	to {background-color: #2256ba;}
+}
+
+@-webkit-keyframes nav-leave-4 {
+	from {background-color: #2256ba;}
+	to {background-color: black;}
+}
+
+@-moz-keyframes nav-leave-4 {
+	from {background-color: #2256ba;}
+	to {background-color: black;}
+}
+
+@-ms-keyframes nav-leave-4 {
+	from {background-color: #2256ba;}
+	to {background-color: black;}
+}
+
+ul {
+	margin: 0;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+/* section 2 */
+
+#section-2 {
+	background-color: #772020;
+	max-height: 550px;
+	box-shadow: 0 0 20px black;
+	z-index: 2;
+	margin-top: -20px;
+}
+
+#sec2-video-h1 {
+	margin-left: 25px;
+	padding-top: 20px;
+	font-family: Opti;
+	color: white;
+	text-shadow: 0 0 10px black;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 400px;
+	padding: 25px;
+	border-right: 1px solid white;
+}
+
+/* Section 3 */
+
+#section-3 {
+	height: 800px;
+	background-image: url(img/bg-portfolio.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 20px black inset;
+	z-index: 0;
+	margin-top: -27px;
+
+}
+
+#sec3-wrapper {
+}
+
+#sec3-title {
+	text-align: center;
+	font-family: Opti;
+	color: white;
+	text-shadow: 0 0 10px black;
+	padding-top: 50px;
+	font-size: 250%;
+	
+}
+
+#project-1 {
+}
+
+#project-1-img {
+	background-color: rgba(120, 173, 0, 0.6);
+	width: 500px;
+	height: 250px;
+	position: relative;
+	z-index: 0;
+	box-shadow: 0px 0px 10px black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#project-2 {
+}
+
+#project-2-img {
+	background-color: rgba(0, 27, 173, 0.6);
+	width: 500px;
+	height: 250px;
+	position: relative;
+	z-index: 0;
+	box-shadow: 0px 0px 10px black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* other */
+
+#return-top {
+	position: fixed;
+	z-index: 1;
+	bottom:0%;
+	margin-left: 20px;
+	padding: 10px;
+	background-color: rgba(0, 98, 45, 0.5);
+	box-shadow: 0px 0px 5px black;
+}
+
+#return-top-p {
+	font-family: robot;
+	color: white;
+}
