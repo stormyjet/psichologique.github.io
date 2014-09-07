@@ -25,7 +25,7 @@ body {
 	background-image: url(img/header-bg.png);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: right;
 	background-size: cover;
 	height: 600px;
 	width: 100%;
@@ -309,6 +309,10 @@ ul {
 	text-shadow: 0 0 10px black;
 }
 
+#sec2-video-container {
+	text-align: center;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -318,13 +322,8 @@ ul {
 .video-container iframe,
 .video-container object,
 .video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 50%;
     height: 400px;
-	padding: 25px;
-	border-right: 1px solid white;
 }
 
 /* Section 3 */
@@ -338,7 +337,6 @@ ul {
 	box-shadow: 0 0 20px black inset;
 	z-index: 0;
 	margin-top: -27px;
-
 }
 
 #sec3-wrapper {
@@ -353,9 +351,6 @@ ul {
 	font-size: 250%;
 }
 
-#project-1 {
-}
-
 #project-1-img {
 	background-color: rgba(120, 173, 0, 0.6);
 	width: 500px;
@@ -366,9 +361,50 @@ ul {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	-webkit-animation: project1-leave 0.3s linear;
+	-moz-animation: project1-leave 0.3s linear;
+	-ms-animation: project1-leave 0.3s linear;
 }
 
-#project-2 {
+@-webkit-keyframes project1-leave {
+	from {background-color: #78ad00;}
+	to {background-color: rgba(120, 173, 0, 0.6);}
+}
+
+@-moz-keyframes project1-leave {
+	from {background-color: #78ad00;}
+	to {background-color: rgba(120, 173, 0, 0.6);}
+}
+
+@-ms-keyframes project1-leave {
+	from {background-color: #78ad00;}
+	to {background-color: rgba(120, 173, 0, 0.6);}
+}
+
+#project-1-img:hover {
+	background-color: #78ad00;
+	-webkit-animation: project1-enter 0.2s linear;
+	-moz-animation: project1-enter 0.2s linear;
+	-ms-animation: project1-enter 0.2s linear;
+}
+
+#project-1-img:active {
+	box-shadow: 0px 0px 10px black inset;
+}
+
+@-webkit-keyframes project1-enter {
+	from {background-color: rgba(120, 173, 0, 0.6);}
+	to {background-color: #78ad00;}
+}
+
+@-moz-keyframes project1-enter {
+	from {background-color: rgba(120, 173, 0, 0.6);}
+	to {background-color: #78ad00;}
+}
+
+@-ms-keyframes project1-enter {
+	from {background-color: rgba(120, 173, 0, 0.6);}
+	to {background-color: #78ad00;}
 }
 
 #project-2-img {
@@ -381,6 +417,51 @@ ul {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	-webkit-animation: project2-leave 0.3s linear;
+	-moz-animation: project2-leave 0.3s linear;
+	-ms-animation: project2-leave 0.3s linear;
+}
+
+@-webkit-keyframes project2-leave {
+	from {background-color: #001bad;}
+	to {background-color: rgba(0, 27, 173, 0.6);}
+}
+
+@-moz-keyframes project2-leave {
+	from {background-color: #001bad;}
+	to {background-color: rgba(0, 27, 173, 0.6);}
+}
+
+@-ms-keyframes project2-leave {
+	from {background-color: #001bad;}
+	to {background-color: rgba(0, 27, 173, 0.6);}
+}
+
+
+#project-2-img:hover {
+	background-color: #001bad;
+	-webkit-animation: project2-enter 0.2s linear;
+	-moz-animation: project2-enter 0.2s linear;
+	-ms-animation: project2-enter 0.2s linear;
+}
+
+#project-2-img:active {
+	box-shadow: 0px 0px 10px black inset;
+}
+
+@-webkit-keyframes project2-enter {
+	from {background-color: rgba(0, 27, 173, 0.6);}
+	to {background-color: #001bad;}
+}
+
+@-moz-keyframes project2-enter {
+	from {background-color: rgba(0, 27, 173, 0.6);}
+	to {background-color: #001bad;}
+}
+
+@-ms-keyframes project2-enter {
+	from {background-color: rgba(0, 27, 173, 0.6);}
+	to {background-color: #001bad;}
 }
 
 /* Section 4 */
@@ -425,29 +506,109 @@ ul {
 
 #youtube {
 	text-align: center;
+	-webkit-animation: contact-leave 0.3s linear;
+	-moz-animation: contact-leave 0.3s linear;
+	-ms-animation: contact-leave 0.3s linear;
 }
 
 #gp {
 	text-align: center;
+	-webkit-animation: contact-leave 0.3s linear;
+	-moz-animation: contact-leave 0.3s linear;
+	-ms-animation: contact-leave 0.3s linear;
 }
 
 #reddit {
 	text-align: center;
+	-webkit-animation: contact-leave 0.3s linear;
+	-moz-animation: contact-leave 0.3s linear;
+	-ms-animation: contact-leave 0.3s linear;
 }
 
 #twitter {
 	text-align: left;
+	-webkit-animation: contact-leave 0.3s linear;
+	-moz-animation: contact-leave 0.3s linear;
+	-ms-animation: contact-leave 0.3s linear;
 }
 
 #soundcloud {
 	text-align: right;
+	-webkit-animation: contact-leave 0.3s linear;
+	-moz-animation: contact-leave 0.3s linear;
+	-ms-animation: contact-leave 0.3s linear;
+}
+
+#youtube:hover {
+	-webkit-animation: contact-enter 0.1s linear;
+	-moz-animation: contact-enter 0.1s linear;
+	-ms-animation: contact-enter 0.1s linear;
+	opacity: 0.8;
+}
+
+#gp:hover {
+	-webkit-animation: contact-enter 0.1s linear;
+	-moz-animation: contact-enter 0.1s linear;
+	-ms-animation: contact-enter 0.1s linear;
+	opacity: 0.8;
+}
+
+#reddit:hover {
+	-webkit-animation: contact-enter 0.1s linear;
+	-moz-animation: contact-enter 0.1s linear;
+	-ms-animation: contact-enter 0.1s linear;
+	opacity: 0.8;
+}
+
+#twitter:hover {
+	-webkit-animation: contact-enter 0.1s linear;
+	-moz-animation: contact-enter 0.1s linear;
+	-ms-animation: contact-enter 0.1s linear;
+	opacity: 0.8;
+}
+
+#soundcloud:hover {
+	-webkit-animation: contact-enter 0.1s linear;
+	-moz-animation: contact-enter 0.1s linear;
+	-ms-animation: contact-enter 0.1s linear;
+	opacity: 0.8;
+}
+
+@-webkit-keyframes contact-leave {
+	from {opacity: 0.8;}
+	to {opacity: 1}
+}
+
+@-moz-keyframes contact-leave {
+	from {opacity: 0.8;}
+	to {opacity: 1}
+}
+
+@-ms-keyframes contact-leave {
+	from {opacity: 0.8;}
+	to {opacity: 1}
+}
+
+@-webkit-keyframes contact-enter {
+	from {opacity: 1;}
+	to {opacity: 0.8}
+}
+
+@-moz-keyframes contact-enter {
+	from {opacity: 1;}
+	to {opacity: 0.8}
+}
+
+@-ms-keyframes contact-enter {
+	from {opacity: 1;}
+	to {opacity: 0.8}
 }
 
 #sec5-text {
 	font-family: arial;
 	text-align: center;
 	color: white;
-	text-shadow: 1px 1px 0px black;
+	text-shadow: 2px 2px 0px black;
 	font-size: 200%;
 }
 
@@ -457,6 +618,21 @@ ul {
 	color: white;
 	font-size: 300%;
 	text-shadow: 0px 0px 10px black;
+	background-color: orange;
+	padding: 20px;
+	width: 700px;
+	box-shadow: 0 0 20px black;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#email:hover {
+	background-color: #fcb32e;
+}
+
+#email:active {
+	box-shadow: 0px 0px 20px black inset;
 }
 
 /* other */
@@ -476,6 +652,11 @@ ul {
 	padding: 10px;
 	background-color: rgba(0, 98, 45, 0.67);
 	box-shadow: 0px 0px 5px black;
+	border-radius: 5px;
+}
+
+#return-top:active {
+	box-shadow: 0px 0px 5px black inset;
 }
 
 #return-top-p {
@@ -485,7 +666,7 @@ ul {
 
 footer {
 	background-color: #004c5a;
-	padding: 25px;
+	padding: 5px;
 	box-shadow: 0px 0px 10px;
 }
 
@@ -493,4 +674,5 @@ footer {
 	font-family: robot;
 	color: white;
 	text-align: center;
+	cursor: pointer;
 }
