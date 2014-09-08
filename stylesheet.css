@@ -162,7 +162,7 @@ a {
 	overflow: hidden;
 }
 
-#sec1-nav-link1 {
+.sec1-link {
 	color: white;
 	font-family: robot;
     display: block;
@@ -176,6 +176,9 @@ a {
 	background-color: rgba(0, 0, 0, 1);
 	font-size: 150%;
 	padding-right: 1px;
+}
+
+#sec1-nav-link1 {
 	margin-top: 200px;
 	-webkit-animation: nav-leave-1 0.1s linear;
 	-moz-animation: nav-leave-1 0.1s linear;
@@ -183,57 +186,18 @@ a {
 }
 
 #sec1-nav-link2 {
-	color: white;
-	font-family: robot;
-    display: block;
-    width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	vertical-align: middle;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: black;
-	font-size: 150%;
-	padding-right: 1px;
 	-webkit-animation: nav-leave-2 0.1s linear;
 	-moz-animation: nav-leave-2 0.1s linear;
 	-ms-animation: nav-leave-2 0.1s linear;
 }
 
 #sec1-nav-link3 {
-	color: white;
-	font-family: robot;
-    display: block;
-    width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	vertical-align: middle;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: black;
-	font-size: 150%;
-	padding-right: 1px;
 	-webkit-animation: nav-leave-3 0.1s linear;
 	-moz-animation: nav-leave-3 0.1s linear;
 	-ms-animation: nav-leave-3 0.1s linear;
 }
 
 #sec1-nav-link4 {
-	color: white;
-	font-family: robot;
-    display: block;
-    width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	vertical-align: middle;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: black;
-	font-size: 150%;
-	padding-right: 1px;
 	-webkit-animation: nav-leave-4 0.1s linear;
 	-moz-animation: nav-leave-4 0.1s linear;
 	-ms-animation: nav-leave-4 0.1s linear;
