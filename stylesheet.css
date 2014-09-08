@@ -559,7 +559,7 @@ a {
 /* Section 4 */
 
 #section-4 {
- 	height: 350px;
+ 	height: 100%;
 	background-color: #4e276f;
 	margin-top: -27px;
 }
@@ -578,6 +578,7 @@ a {
 	color: white;
 	text-align: center;
 	text-shadow: 1px 1px 0px black;
+	padding-bottom: 4%;
 }
 
 /* Section 5 */
@@ -718,7 +719,6 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	margin-bottom: 10%;
 }
 
 #email:hover {
